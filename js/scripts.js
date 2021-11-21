@@ -32,5 +32,13 @@ function beepBoop(number) {
 });
 }
 
+$(document).ready(function() {
+  $("button#gato-submit").submit(function(event) {
+    event.preventDefault();
+    let gatoFood = $("input#number-food").val();
+    let pellets = beepBoop(gatoFood);
+    $(".gato-answer").text(pellets);
+  }
+});
 
 
