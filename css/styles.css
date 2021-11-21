@@ -1,0 +1,25 @@
+
+.container {
+  margin-top: 10%;
+  font-family: monospace;
+}
+h1{
+  text-align: center;
+}
+#robo-pic {
+  margin-top: 5%;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+
+#gato-number {
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#gato-submit {
+  margin-top: 3%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
