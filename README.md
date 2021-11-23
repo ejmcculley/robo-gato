@@ -46,6 +46,10 @@ _Test: "If a number contains 1, it should return "Beep!"_
 _Code: beepBoop(5);_
 _Expected Output: "0, Beep!, 2, 3, 4 , 5"_
 
+_Test: "If a number contains 2, it should return "Boop"_
+_Code: beepBoop(5);_
+_Expected Output: "0, Beep!, "Boop", 3, 4 , 5"_
+
 ## Known Bugs
 
 * Doesn't work! WIP :(

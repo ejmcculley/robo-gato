@@ -13,32 +13,36 @@
 
 function beepBoop(number) {
   let input = number;
-  let index = 0
+  let i = 0
   let inputArray = [];
-  let beepArray = new Array(input);
+  
   while
-  (index <= input) {
-  inputArray.push(index);
-  index ++
+  (i <= input) {
+  inputArray.push(i.toString());
+  i ++
   }
-  inputArray.forEach(function(element) {
-  if (element.toString().includes(1)) {
-  beepArray.push("Beep!");
+ let beepArray = [];
+ inputArray.forEach(function(element, index) {
+  if (element.includes("1")) {
+  	beepArray.push("Beep!");
+  } else if  (element.includes("2")) {
+    beepArray.push("Boop");
+  } else {
+    beepArray.push(index);
   }
-  else {
-  beepArray.push(inputArray[index]);
-  }
-  return beepArray;
-});
+  })
+	return beepArray;
 }
 
-$(document).ready(function() {
-  $("button#gato-submit").submit(function(event) {
-    event.preventDefault();
-    let gatoFood = $("input#number-food").val();
-    let pellets = beepBoop(gatoFood);
-    $(".gato-answer").text(pellets);
-  }
-});
+console.log(beepBoop(20));
+
+// $(document).ready(function() {
+//   $("button#gato-submit").submit(function(event) {
+//     event.preventDefault();
+//     let gatoFood = $("input#number-food").val();
+//     let pellets = beepBoop(gatoFood);
+//     $(".gato-answer").text(pellets);
+//   }
+// });
 
 
