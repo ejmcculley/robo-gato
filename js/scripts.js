@@ -27,6 +27,8 @@ function beepBoop(number) {
   	beepArray.push("Beep!");
   } else if  (element.includes("2")) {
     beepArray.push("Boop");
+  } else if  (element.includes("3")) {
+    beepArray.push("Won't you be my neighbor?");
   } else {
     beepArray.push(index);
   }
