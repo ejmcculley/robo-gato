@@ -54,6 +54,10 @@ _Test: "If a number contains 3, it should return "Won't you be my neighbor?"_
 _Code: beepBoop(5);_
 _Expected Output: "0, Beep!, "Boop", 3, 4 , 5"_
 
+_Test: "Exceptions are in order so that the numbers 13 and 32 are replaced with "Won't you be my neighbor?" and 21 is replaced with "Boop""_
+_Code: beepBoop(5);_
+_Expected Output: "0, Beep!, "Boop", 3, 4 , 5"_
+
 ## Known Bugs
 
 * Doesn't work! WIP :(

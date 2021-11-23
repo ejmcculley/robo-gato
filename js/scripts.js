@@ -23,12 +23,12 @@ function beepBoop(number) {
   }
  let beepArray = [];
  inputArray.forEach(function(element, index) {
-  if (element.includes("1")) {
-  	beepArray.push("Beep!");
+  if (element.includes("3")) {
+  	beepArray.push("Won't you be my neighbor?");
   } else if  (element.includes("2")) {
     beepArray.push("Boop");
-  } else if  (element.includes("3")) {
-    beepArray.push("Won't you be my neighbor?");
+  } else if  (element.includes("1")) {
+    beepArray.push("Beep!");
   } else {
     beepArray.push(index);
   }
