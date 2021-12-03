@@ -1,4 +1,8 @@
 
+#result {
+  display: none;
+}
+
 .container {
   margin-top: 10%;
   font-family: monospace;

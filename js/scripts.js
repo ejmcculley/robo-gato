@@ -1,16 +1,3 @@
-// function beepBoop(number) {
-//   let input = number;
-//   let index = 0
-//   let inputArray = [];
-  
-//   while
-//   (index <= input) {
-//   inputArray.push(index);
-//   index ++
-//   }
-// return inputArray;
-// }
-
 function beepBoop(number) {
   let input = number;
   let i = 0
@@ -21,7 +8,9 @@ function beepBoop(number) {
   inputArray.push(i.toString());
   i ++
   }
+
  let beepArray = [];
+
  inputArray.forEach(function(element, index) {
   if (element.includes("3")) {
   	beepArray.push("Won't you be my neighbor?");
@@ -38,13 +27,14 @@ function beepBoop(number) {
 
 console.log(beepBoop(20));
 
-// $(document).ready(function() {
-//   $("button#gato-submit").submit(function(event) {
-//     event.preventDefault();
-//     let gatoFood = $("input#number-food").val();
-//     let pellets = beepBoop(gatoFood);
-//     $(".gato-answer").text(pellets);
-//   }
-// });
+$(document).ready(function() {
+  $("#gato-number").submit(function(event) {
+    event.preventDefault();
+    $("#result").show();
+    let gatoFood = $("input#number").val();
+    let pellets = beepBoop(gatoFood);
+    $(".gato-answer").text(pellets);
+  })
+});
 
 
