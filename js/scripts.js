@@ -25,8 +25,6 @@ function beepBoop(number) {
 	return beepArray;
 }
 
-console.log(beepBoop(20));
-
 $(document).ready(function() {
   $("#gato-number").submit(function(event) {
     event.preventDefault();
@@ -34,6 +32,7 @@ $(document).ready(function() {
     let gatoFood = $("input#number").val();
     let pellets = beepBoop(gatoFood);
     $(".gato-answer").text(pellets);
+    $("input#number").val("");
   })
 });
 

@@ -60,7 +60,7 @@ _Expected Output: "0, Beep!, "Boop", 3, 4 , 5"_
 
 ## Known Bugs
 
-* Doesn't work! WIP :(
+* Not at the moment
 
 ## License
 MIT License
