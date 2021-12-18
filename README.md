@@ -22,6 +22,9 @@ _This is the third Independent Project for Epicodus Full-Stack Bootcamp. I'm usi
 
 ## Setup/Installation Requirements
 
+_You have two options for installation. The first, is to clone this repository and open the HTML file in your browser locally. To do this"_
+
+
 1. Click on the green "Code" button above this file list.
 2. Copy the HTTPS link (this is the default option).
 3. Open your local Terminal.
@@ -29,6 +32,10 @@ _This is the third Independent Project for Epicodus Full-Stack Bootcamp. I'm usi
 5. In your Terminal type "git clone" (without the quotes) then paste the URL you copied above. 
 6. Press 'enter' and the cloned directory should be copied to your current working directory.
 7. To view the HTML file (index.html), double click the file and the it will open in your web browser. 
+
+_Your second option is to click the Github Pages link below:_
+
+[Check out my Github Pages Link!](https://ejmcculley.github.io/robo-gato/)
 
 ## Specs
 
